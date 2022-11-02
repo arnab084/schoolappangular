@@ -1,0 +1,14 @@
+
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side" opened="true">
+        <app-student-menu></app-student-menu>
+    </mat-drawer>
+    <mat-icon (click)="drawer.toggle()">menu</mat-icon>
+    <div class="example-sidenav-content">
+
+
+        Extra Content
+
+    </div>
+
+</mat-drawer-container>
